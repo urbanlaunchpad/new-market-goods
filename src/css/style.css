@@ -1,0 +1,90 @@
+
+/*===============COLORS=================
+red: #EF4135;
+pacific: #009DDC;
+yellow: #FFD200;
+sky: #8CD2F4;
+orange: #F47735;
+*/
+
+body {
+	height: 100%;
+	font-size: 16px;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	font-size: .875em;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: white;
+}
+
+header a {
+	display: block;
+	float: left;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2% 5%;
+}
+
+
+
+footer {
+
+}
+
+/*============TYPOGRAPHY============*/
+
+
+
+/*=============SECTIONS=============*/
+.main {
+	height: 500px;
+}
+
+section {
+	display: block;
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+
+#fabric_01 {
+	background-color: #EF4135;
+}
+
+#fabric_02 {
+	background-color: #009DDC;
+}
+
+#fabric_03 {
+	background-color: #FFD200;
+}
+
+#fabric_04 {
+	background-color: #8CD2F4;
+}
+
+#fabric_05 {
+	background-color: #F47735;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
