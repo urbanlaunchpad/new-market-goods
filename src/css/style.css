@@ -31,7 +31,9 @@ header {
 	position: fixed;
 	width: 100%;
 	font-size: .875em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
 	background-color: white;
 }
 
