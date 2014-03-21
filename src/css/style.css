@@ -1,3 +1,7 @@
+body {
+	height: 100%;
+	font-size: 16px;
+}
 
 /*===============COLORS=================
 red: #EF4135;
@@ -7,10 +11,21 @@ sky: #8CD2F4;
 orange: #F47735;
 */
 
-body {
-	height: 100%;
-	font-size: 16px;
+/*============TYPOGRAPHY============*/
+
+h1 {
+
 }
+
+h2 {
+
+}
+
+p {
+
+}
+
+/*==========HEADER/FOOTER===========*/
 
 header {
 	position: fixed;
@@ -21,22 +36,38 @@ header {
 }
 
 header a {
-	display: block;
-	float: left;
-	color: black;
+	display: inline-block;
+	color: #808080;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 2% 5%;
+	padding: 5% 5% 3% 5%;
+}
+header a:hover {
+ 	color: black;
 }
 
+#logo {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-top: 1.75%;
+}
 
+#logo a {
+	padding: 0;
+}
+
+#nav-left {
+	float: left;
+}
+#nav-right {
+	float: right;
+	text-align: right;
+}
 
 footer {
 
 }
-
-/*============TYPOGRAPHY============*/
-
 
 
 /*=============SECTIONS=============*/
