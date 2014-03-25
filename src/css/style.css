@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	height: 100%;
 	font-size: 16px;
@@ -9,6 +13,7 @@ pacific: #009DDC;
 yellow: #FFD200;
 sky: #8CD2F4;
 orange: #F47735;
+header bg gray: #F2F2F2;
 */
 
 /*============TYPOGRAPHY============*/
@@ -29,12 +34,14 @@ p {
 
 header {
 	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
 	font-size: .875em;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 2px;
-	background-color: white;
+	background-color: #F2F2F2;
 }
 
 header a {
@@ -68,13 +75,17 @@ header a:hover {
 }
 
 footer {
-
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 
 
 /*===========FABRIC SECTIONS===========*/
-.main {
-	height: 500px;
+#main {
+	overflow: auto; /*clearfix*/
+	height: 100%;
+	width: 100%;
 }
 
 section {
