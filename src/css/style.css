@@ -96,23 +96,28 @@ section {
 }
 
 #fabric_01 {
-	background-color: #EF4135;
+	background: #EF4135 url('../img/fabric/fabric_01.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 #fabric_02 {
-	background-color: #009DDC;
+	background: #009DDC url('../img/fabric/fabric_02.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 #fabric_03 {
-	background-color: #FFD200;
+	background: #FFD200 url('../img/fabric/fabric_03.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 #fabric_04 {
-	background-color: #8CD2F4;
+	background: #8CD2F4 url('../img/fabric/fabric_04a.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 #fabric_05 {
-	background-color: #F47735;
+	background: #F47735 url('../img/fabric/fabric_04b.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 
