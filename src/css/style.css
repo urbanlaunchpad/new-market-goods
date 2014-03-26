@@ -19,11 +19,17 @@ header bg gray: #F2F2F2;
 /*============TYPOGRAPHY============*/
 
 h1 {
-
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 1.5em;
 }
 
 h2 {
-
+	font-family: 'Bitter', Georiga, serif;
+	font-weight: 400;
+	font-size: 1.25em;
 }
 
 p {
@@ -91,33 +97,66 @@ footer {
 section {
 	display: block;
 	float: left;
-	height: 100%;
+	height: 95%;
+	width: 20%;
+	padding-top: 40%;
+}
+
+#fabric01 #fabric01_text,
+#fabric02 #fabric02_text,
+#fabric03 #fabric03_text,
+#fabric04 #fabric04_text,
+#fabric05 #fabric05_text {
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+	height: 5%;
+	min-height: 35px;
 	width: 20%;
 }
 
-#fabric_01 {
+#fabric01 {
 	background: #EF4135 url('../img/fabric/fabric_01.jpg') center center no-repeat;
 	background-size: cover;
 }
+#fabric01 #fabric01_comp {
+	padding: 0 10%;
+	color: white;
+}
+#fabric01 #fabric01_text {
+	background-color: #EF4135;
+}
 
-#fabric_02 {
+#fabric02 {
 	background: #009DDC url('../img/fabric/fabric_02.jpg') center center no-repeat;
 	background-size: cover;
 }
+#fabric02 #fabric02_text {
+	background-color: #009DDC;
+}
 
-#fabric_03 {
+#fabric03 {
 	background: #FFD200 url('../img/fabric/fabric_03.jpg') center center no-repeat;
 	background-size: cover;
 }
+#fabric03 #fabric03_text {
+	background-color: #FFD200;
+}
 
-#fabric_04 {
+#fabric04 {
 	background: #8CD2F4 url('../img/fabric/fabric_04a.jpg') center center no-repeat;
 	background-size: cover;
 }
+#fabric04 #fabric04_text {
+	background-color: #8CD2F4;
+}
 
-#fabric_05 {
-	background: #F47735 url('../img/fabric/fabric_04b.jpg') center center no-repeat;
+#fabric05 {
+	background: #F47735 url('../img/fabric/fabric_02.jpg') center center no-repeat;
 	background-size: cover;
+}
+#fabric05 #fabric05_text {
+	background-color: #F47735;
 }
 
 
