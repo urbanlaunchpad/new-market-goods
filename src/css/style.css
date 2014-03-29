@@ -107,6 +107,8 @@ footer {
 	left: 0;
 	width: 100%;
 	background-color: #FFD200;
+}
+footer p {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
