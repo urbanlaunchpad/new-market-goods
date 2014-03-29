@@ -115,6 +115,31 @@ section {
 	width: 20%;
 }
 
+<<<<<<< HEAD
+#fabric_01 {
+	background: #EF4135 url('../img/fabric/fabric_01.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+#fabric_02 {
+	background: #009DDC url('../img/fabric/fabric_02.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+#fabric_03 {
+	background: #FFD200 url('../img/fabric/fabric_03.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+#fabric_04 {
+	background: #8CD2F4 url('../img/fabric/fabric_04a.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+#fabric_05 {
+	background: #F47735 url('../img/fabric/fabric_04b.jpg') center center no-repeat;
+	background-size: cover;
+=======
 #fabric01 {
 	background: #EF4135 url('../img/fabric/fabric_01.jpg') center center no-repeat;
 	background-size: cover;
@@ -157,6 +182,7 @@ section {
 }
 #fabric05 #fabric05_text {
 	background-color: #F47735;
+>>>>>>> master
 }
 
 
