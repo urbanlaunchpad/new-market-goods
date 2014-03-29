@@ -196,7 +196,7 @@ section {
 
 .product-content {
 	float: left;
-	width: 80%;
+	width: 40%;
 	padding: 7em 4em;
 }
 .product-content #icon_popover-blue {
@@ -262,6 +262,10 @@ section {
 }
 .product-content button:hover {
 	background-color: #D3332F;
+}
+.product-photo {
+	float: right;
+	padding-top: 6.5em;
 }
 
 
