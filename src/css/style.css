@@ -41,8 +41,20 @@ h2 {
 	font-size: 1.25em;
 }
 
-p {
+h3 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 1em;
+}
 
+p {
+	font-family: 'Bitter', Georiga, serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.75em;
+	color: #808080;
 }
 
 /*==========HEADER/FOOTER===========*/
@@ -180,12 +192,75 @@ section {
 
 /*===========PRODUCT PAGE===========*/
 
-#main .product-content {
+.product-content {
 	float: left;
 	width: 80%;
 	padding: 7em 4em;
 }
-
+.product-content #icon_popover-blue {
+	float: left;
+	padding: 2em 1.5em 0 0;
+	vertical-align: center;
+}
+.product-content .product-title {
+	float: left;
+}
+.product-content h1 {
+	font-size: 2em;
+	margin-bottom: 0;
+}
+.product-content h2 {
+	margin-top: .5em;
+	color: #EF4135;
+	font-size: 1.125em;
+}
+.product-content .price {
+	margin-bottom: 3em;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+	color: #009DDC;
+}
+.product-content ul {
+	padding: 0 0 3.5em 0;
+	text-align: center;
+	line-height: 40px;
+	color: #009DDC;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 1.125em;
+}
+.product-content ul li {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 1em;
+	border: 1px solid #009DDC;
+}
+.product-content ul li:hover {
+	cursor: pointer;
+	background-color: #009DDC;
+	color: white;
+}
+.product-content button {
+	height: 40px;
+	width: 200px;
+	border: 0;
+	background-color: #EF4135;
+	color: white;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;	
+}
+.product-content button:hover {
+	background-color: #D3332F;
+}
 
 
 
