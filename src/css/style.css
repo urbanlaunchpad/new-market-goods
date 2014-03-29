@@ -7,6 +7,15 @@ body {
 	font-size: 16px;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
 /*===============COLORS=================
 red: #EF4135;
 pacific: #009DDC;
@@ -84,12 +93,21 @@ footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	width: 100%;
+	background-color: #FFD200;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .75em;
 }
+
+
 
 
 /*===========FABRIC SECTIONS===========*/
 #main {
-	overflow: auto; /*clearfix*/
+/*	overflow: auto;*/ /*clearfix*/
 	height: 100%;
 	width: 100%;
 }
@@ -160,7 +178,13 @@ section {
 }
 
 
+/*===========PRODUCT PAGE===========*/
 
+#main .product-content {
+	float: left;
+	width: 80%;
+	padding: 7em 4em;
+}
 
 
 
