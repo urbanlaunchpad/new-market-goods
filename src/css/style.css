@@ -194,29 +194,29 @@ section {
 
 /*===========PRODUCT PAGE===========*/
 
-.product-content {
+.product-details {
 	float: left;
 	width: 40%;
-	padding: 7em 4em;
+	padding: 7em 4em 0 4em;
 }
-.product-content #icon_popover-blue {
+.product-details #icon_popover-blue {
 	float: left;
 	padding: 2em 1.5em 0 0;
 	vertical-align: center;
 }
-.product-content .product-title {
+.product-details .product-title {
 	float: left;
 }
-.product-content h1 {
+.product-details h1 {
 	font-size: 2em;
 	margin-bottom: 0;
 }
-.product-content h2 {
+.product-details h2 {
 	margin-top: .5em;
 	color: #EF4135;
 	font-size: 1.125em;
 }
-.product-content .price {
+.product-details .price {
 	margin-bottom: 3em;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -225,7 +225,7 @@ section {
 	font-size: 1.5em;
 	color: #009DDC;
 }
-.product-content ul {
+.product-details ul {
 	padding: 0 0 3.5em 0;
 	text-align: center;
 	line-height: 40px;
@@ -236,7 +236,7 @@ section {
 	letter-spacing: 3px;
 	font-size: 1.125em;
 }
-.product-content ul li {
+.product-details ul li {
 	display: block;
 	float: left;
 	height: 40px;
@@ -244,12 +244,12 @@ section {
 	margin-right: 1em;
 	border: 1px solid #009DDC;
 }
-.product-content ul li:hover {
+.product-details ul li:hover {
 	cursor: pointer;
 	background-color: #009DDC;
 	color: white;
 }
-.product-content button {
+.product-details button {
 	height: 40px;
 	width: 200px;
 	border: 0;
@@ -260,7 +260,7 @@ section {
 	text-transform: uppercase;
 	letter-spacing: 3px;	
 }
-.product-content button:hover {
+.product-details button:hover {
 	background-color: #D3332F;
 }
 .product-photo {
