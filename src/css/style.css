@@ -127,11 +127,11 @@ footer p {
 }
 
 section {
-	display: block;
+	display: inline-block;
 	float: left;
 	height: 95%;
 	width: 20%;
-	padding-top: 40%;
+	color: white;
 }
 
 #fabric01 #fabric01_text,
@@ -147,13 +147,15 @@ section {
 	width: 20%;
 }
 
+/*Static example from original comp*/
 #fabric01 {
 	background: #EF4135 url('../img/fabric/fabric_01.jpg') center center no-repeat;
 	background-size: cover;
 }
 #fabric01 #fabric01_comp {
-	padding: 0 10%;
-	color: white;
+	position: absolute;
+	bottom: 8%;
+	padding: 0 2%;
 }
 #fabric01 #fabric01_text {
 	background-color: #EF4135;

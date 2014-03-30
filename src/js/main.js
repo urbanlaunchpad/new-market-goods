@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+//=============HOMEPAGE ANIMATIONS==============
+	//FABRIC02
+	$('#fabric02').hover(function () {
+			
+	});
+	
+
 
 //On goods.html (Product page example for now)		
 //Add click event when user selects popover size 
