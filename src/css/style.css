@@ -129,13 +129,12 @@ footer p {
 section {
 	display: inline-block;
 	float: left;
-	height: 95%;
+	height: 100%;
 	width: 20%;
 	color: white;
 }
 
 #fabric01 #fabric01_text,
-#fabric02 #fabric02_text,
 #fabric03 #fabric03_text,
 #fabric04 #fabric04_text,
 #fabric05 #fabric05_text {
@@ -154,7 +153,7 @@ section {
 }
 #fabric01 #fabric01_comp {
 	position: absolute;
-	bottom: 8%;
+	bottom: 5%;
 	padding: 0 2%;
 }
 #fabric01 #fabric01_text {
@@ -164,9 +163,16 @@ section {
 #fabric02 {
 	background: #009DDC url('../img/fabric/fabric_02.jpg') center center no-repeat;
 	background-size: cover;
+	overflow: auto;
 }
 #fabric02 #fabric02_text {
+	position: absolute;
+	bottom: 0;
+	height: 25%;
+	width: 20%;
+	display: none;
 	background-color: #009DDC;
+	padding: 2em 1em;
 }
 
 #fabric03 {
@@ -174,16 +180,51 @@ section {
 	background-size: cover;
 }
 #fabric03 #fabric03_text {
+	position: absolute;
+	bottom: -25%;
+	height: 30%;
+	width: 20%;
+	overflow: hidden;
 	background-color: #FFD200;
+	padding: 2.5em 1em;
+	transition: bottom 500ms ease-out;
+	-webkit-transition: bottom 500ms ease-out;
+  -moz-transition: bottom 500ms ease-out;
+  -o-transition: bottom 500ms ease-out;
+
+}
+#fabric03:hover #fabric03_text {
+	bottom: 0;
 }
 
 #fabric04 {
 	background: #8CD2F4 url('../img/fabric/fabric_04a.jpg') center center no-repeat;
 	background-size: cover;
+	transition: height 500ms ease-out;
+	-webkit-transition: height 500ms ease-out;
+  -moz-transition: height 500ms ease-out;
+  -o-transition: height 500ms ease-out;
 }
 #fabric04 #fabric04_text {
 	background-color: #8CD2F4;
+	position: absolute;
+	bottom: -25%;
+	height: 30%;
+	width: 20%;
+	overflow: hidden;
+ 	padding: 2.5em 1em;
+	transition: bottom 500ms ease-out;
+	-webkit-transition: bottom 500ms ease-out;
+  -moz-transition: bottom 500ms ease-out;
+  -o-transition: bottom 500ms ease-out;
 }
+#fabric04:hover #fabric04_text {
+	bottom: 0;
+}
+#fabric04:hover {
+	height: 95%;
+}
+
 
 #fabric05 {
 	background: #F47735 url('../img/fabric/fabric_02.jpg') center center no-repeat;
