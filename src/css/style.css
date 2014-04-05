@@ -4,7 +4,6 @@ html {
 
 body {
 	height: 100%;
-	width: 2400px;
 	font-size: 16px;
 }
 
@@ -119,10 +118,10 @@ footer p {
 }
 
 /*===========FABRIC SECTIONS===========*/
-#main {
+#fabrics {
 /*	overflow: auto;*/ /*clearfix*/
 	height: 100%;
-	width: 100%;
+	width: 2400px;
 }
 
 figure {
@@ -200,6 +199,18 @@ figure:hover figcaption {
 
 /*===========PRODUCT PAGE===========*/
 
+.product-content {
+	max-width: 1200px;
+}
+aside.product-fabric {
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 300px;
+	margin: 0;
+	overflow: hidden;
+}
 .product-details {
 	float: left;
 	width: 40%;
