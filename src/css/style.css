@@ -153,15 +153,15 @@ figcaption {
   width: 100%;
   top: auto;
   bottom: 0;
-  transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -o-transform: translateY(100%);
+  transform: translateY(80%);
+  -webkit-transform: translateY(80%);
+  -moz-transform: translateY(80%);
+  -o-transform: translateY(80%);
   transition: transform 0.4s;
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   -o-transition: -o-transform 0.4s;
-  padding: 20px;
+  padding: 50px 20px 20px 20px;
   color: white;
 }
 figure:hover figcaption {
