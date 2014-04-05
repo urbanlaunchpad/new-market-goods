@@ -4,6 +4,7 @@ html {
 
 body {
 	height: 100%;
+	width: 2400px;
 	font-size: 16px;
 }
 
@@ -129,7 +130,7 @@ figure {
 	position: relative;
 	float: left;
 	height: 100%;
-	width: 20%;
+	width: 300px;
 	margin: 0;
 	overflow: hidden;
 }
