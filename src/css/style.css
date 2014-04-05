@@ -117,9 +117,6 @@ footer p {
 	font-size: .75em;
 }
 
-
-
-
 /*===========FABRIC SECTIONS===========*/
 #main {
 /*	overflow: auto;*/ /*clearfix*/
@@ -136,7 +133,7 @@ figure {
 	margin: 0;
 	overflow: hidden;
 }
-figure img {
+figure img.bg-img {
 	/*max-width: 100%;*/
 	display: block;
 	position: relative;
@@ -144,6 +141,12 @@ figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	-o-transition: -o-transform 0.4s;
+}
+figure:hover img.bg-img {
+	transform: translateY(-200px);
+  -webkit-transform: translateY(-200px);
+  -moz-transform: translateY(-200px);
+  -o-transform: translateY(-200px);
 }
 figcaption {
   position: absolute;
@@ -162,12 +165,6 @@ figcaption {
   padding: 20px;
   color: white;
 }
-figure:hover img {
-	transform: translateY(-100px);
-  -webkit-transform: translateY(-100px);
-  -moz-transform: translateY(-100px);
-  -o-transform: translateY(-100px);
-}
 figure:hover figcaption {
 	opacity: 1;
   transform: translateY(0px);
@@ -182,92 +179,23 @@ figure:hover figcaption {
 
 /*Static example from original comp*/
 #fabric01 {
-	background: #EF4135 url('../img/fabric/fabric_01.jpg') center center no-repeat;
-	background-size: cover;
-}
-#fabric01 #fabric01_comp {
-	position: absolute;
-	bottom: 5%;
-	padding: 0 2%;
-}
-#fabric01 #fabric01_text {
 	background-color: #EF4135;
 }
 
 #fabric02 {
-	background: #009DDC url('../img/fabric/fabric_02.jpg') center center no-repeat;
-	background-size: cover;
-	overflow: auto;
-}
-#fabric02 #fabric02_text {
-	position: absolute;
-	bottom: 0;
-	height: 25%;
-	width: 20%;
-	display: none;
 	background-color: #009DDC;
-	padding: 2em 1em;
 }
 
 #fabric03 {
-	background: #FFD200 url('../img/fabric/fabric_03.jpg') center center no-repeat;
-	background-size: cover;
-}
-#fabric03 #fabric03_text {
-	position: absolute;
-	bottom: -25%;
-	height: 30%;
-	width: 20%;
-	overflow: hidden;
 	background-color: #FFD200;
-	padding: 2.5em 1em;
-	transition: bottom 500ms ease-out;
-	-webkit-transition: bottom 500ms ease-out;
-  -moz-transition: bottom 500ms ease-out;
-  -o-transition: bottom 500ms ease-out;
-
-}
-#fabric03:hover #fabric03_text {
-	bottom: 0;
 }
 
 #fabric04 {
-	background: #8CD2F4 url('../img/fabric/fabric_04a.jpg') center center no-repeat;
-	background-size: cover;
-	transition: 500ms;
-	-webkit-transition: 500ms;
-  -moz-transition: 500ms;
-  -o-transition: 500ms;
-}
-#fabric04 #fabric04_text {
 	background-color: #8CD2F4;
-	position: absolute;
-	bottom: -25%;
-	height: 30%;
-	width: 20%;
-	overflow: hidden;
- 	padding: 2.5em 1em;
-	transition: bottom 500ms ease-out;
-	-webkit-transition: bottom 500ms ease-out;
-  -moz-transition: bottom 500ms ease-out;
-  -o-transition: bottom 500ms ease-out;
 }
-#fabric04:hover #fabric04_text {
-	bottom: 0;
-	/*transform: translateY(100%);*/
-}
-#fabric04:hover {
-	height: 95%;
-	/*transform: translateY(-50px);*/
-}
-
 
 #fabric05 {
-	background: #F47735 url('../img/fabric/fabric_02.jpg') center center no-repeat;
-	background-size: cover;
-}
-#fabric05 #fabric05_text {
-	background-color: #F47735;
+	background: #F47735;
 }
 
 
