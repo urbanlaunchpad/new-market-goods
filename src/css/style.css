@@ -200,10 +200,10 @@ section {
 #fabric04 {
 	background: #8CD2F4 url('../img/fabric/fabric_04a.jpg') center center no-repeat;
 	background-size: cover;
-	transition: height 500ms ease-out;
-	-webkit-transition: height 500ms ease-out;
-  -moz-transition: height 500ms ease-out;
-  -o-transition: height 500ms ease-out;
+	transition: 500ms;
+	-webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
 }
 #fabric04 #fabric04_text {
 	background-color: #8CD2F4;
@@ -220,9 +220,11 @@ section {
 }
 #fabric04:hover #fabric04_text {
 	bottom: 0;
+	/*transform: translateY(100%);*/
 }
 #fabric04:hover {
 	height: 95%;
+	/*transform: translateY(-50px);*/
 }
 
 
