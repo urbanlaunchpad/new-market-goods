@@ -101,6 +101,13 @@ header a:hover {
 	float: right;
 	text-align: right;
 }
+header i.fa-shopping-cart {
+	font-size: 18px;
+	color: #EF4135;
+}
+header i.fa-shopping-cart:hover {
+	color: black;
+}
 
 footer {
 	position: fixed;
