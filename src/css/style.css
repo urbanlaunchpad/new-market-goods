@@ -34,13 +34,11 @@ h1 {
 	letter-spacing: 10px;
 	font-size: 1.5em;
 }
-
 h2 {
 	font-family: 'Bitter', Georiga, serif;
 	font-weight: 400;
 	font-size: 1.25em;
 }
-
 h3 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -48,7 +46,6 @@ h3 {
 	letter-spacing: 5px;
 	font-size: 1em;
 }
-
 p {
 	font-family: 'Bitter', Georiga, serif;
 	font-weight: 400;
@@ -71,35 +68,36 @@ header {
 	letter-spacing: 2px;
 	background-color: #F2F2F2;
 }
-
+header nav span {
+	float: left;
+}
 header a {
 	display: inline-block;
 	color: #808080;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 5% 5% 3% 5%;
+	padding: 5% 10% 3% 0;
+}
+header span#nav-right {
+	text-align: right;
+}
+header span#nav-right a {
+	padding: 5% 0 3% 10%;
 }
 header a:hover {
  	color: black;
 }
-
-#logo {
-	display: inline-block;
-	float: left;
+header a.logo {
+	/*background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0wLjcxMSAwIDIyIDIwIj48ZWxsaXBzZSBjeD0iMi45IiBjeT0iMTYuOSIgcng9IjIuOSIgcnk9IjMuMSIvPjxlbGxpcHNlIGN4PSIxMC4zIiBjeT0iMy4xIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjYuNiIgY3k9IjEwIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjE0IiBjeT0iMTAiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTAuMyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTcuNyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48L3N2Zz4=) no-repeat center center;*/
+	height: 22px;
+	width: 20px;
 	text-align: center;
-	margin-top: 1.75%;
-}
-
-#logo a {
 	padding: 0;
+	margin: 10% 0 0 50%; /*50% positioning hack*/
+	fill: black;
 }
-
-#nav-left {
-	float: left;
-}
-#nav-right {
-	float: right;
-	text-align: right;
+header a.logo:hover {
+	fill: #EF4135;
 }
 header i.fa-shopping-cart {
 	font-size: 18px;
@@ -108,7 +106,6 @@ header i.fa-shopping-cart {
 header i.fa-shopping-cart:hover {
 	color: black;
 }
-
 footer {
 	position: fixed;
 	bottom: 0;
@@ -130,7 +127,6 @@ footer p {
 	height: 100%;
 	width: 2400px;
 }
-
 figure {
 	display: inline-block;
 	position: relative;
@@ -182,23 +178,18 @@ figure:hover figcaption {
   -o-transition: -o-transform 0.4s;
 }
 
-/*Static example from original comp*/
 #fabric01 {
 	background-color: #EF4135;
 }
-
 #fabric02 {
 	background-color: #009DDC;
 }
-
 #fabric03 {
 	background-color: #FFD200;
 }
-
 #fabric04 {
 	background-color: #8CD2F4;
 }
-
 #fabric05 {
 	background: #F47735;
 }
