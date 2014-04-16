@@ -91,7 +91,7 @@ header a.logo {
 	/*background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0wLjcxMSAwIDIyIDIwIj48ZWxsaXBzZSBjeD0iMi45IiBjeT0iMTYuOSIgcng9IjIuOSIgcnk9IjMuMSIvPjxlbGxpcHNlIGN4PSIxMC4zIiBjeT0iMy4xIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjYuNiIgY3k9IjEwIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjE0IiBjeT0iMTAiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTAuMyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTcuNyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48L3N2Zz4=) no-repeat center center;*/
 	height: 22px;
 	width: 20px;
-	text-align: center;
+	/*text-align: center;*/
 	padding: 0;
 	margin: 10% 0 0 50%; /*50% positioning hack*/
 	fill: black;
