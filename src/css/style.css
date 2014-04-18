@@ -177,21 +177,35 @@ figure:hover figcaption {
   -moz-transition: -moz-transform 0.4s;
   -o-transition: -o-transform 0.4s;
 }
-
-#fabric01 {
+.fabric01 {
 	background-color: #EF4135;
 }
-#fabric02 {
+.fabric02 {
 	background-color: #009DDC;
 }
-#fabric03 {
+.fabric03 {
 	background-color: #FFD200;
 }
-#fabric04 {
+.fabric04 {
 	background-color: #8CD2F4;
 }
-#fabric05 {
-	background: #F47735;
+.fabric05 {
+	background-color: #F47735;
+}
+.figcap01 {
+	background-color: #EF4135;
+}
+.figcap02 {
+	background-color: #009DDC;
+}
+.figcap03 {
+	background-color: #FFD200;
+}
+.figcap04 {
+	background-color: #8CD2F4;
+}
+.figcap05 {
+	background-color: #F47735;
 }
 
 
