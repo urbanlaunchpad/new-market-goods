@@ -348,7 +348,7 @@ aside.product-fabric {
 
 @media screen and (max-width: 480px) {
 	body {
-		font-size: 12px;
+		/*font-size: 14px;*/
 	}
 
 }

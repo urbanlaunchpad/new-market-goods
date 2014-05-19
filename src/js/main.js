@@ -1,7 +1,35 @@
 $(document).ready(function(){
 
 	//=============MOBILE MENU==============
+	$('#mobile-nav').click(function(){
+		// console.log('hi');
+		$('nav').append($('#nav-left'));
+		$('#nav-right').remove('#nav-right-text');
+		$('#nav-right-text').show();
+		$('#nav-left').removeClass('span_5').addClass('span_12').append($('#nav-right-text')).slideToggle("slow");
+	});
 
+
+	//Reset mobile menu on brower window resize
+	//NOT WORKING YET!
+	function adaptMenu() {
+		$('.rmm').each(function() {
+			var $width = $(this).css('max-width');
+			$width = $width.replace('px', ''); 
+			if ( $(this).parent().width() < $width*1.05 ) {
+				$(this).children('.rmm-main-list').hide(0);
+				$(this).children('.rmm-toggled').show(0);
+			}
+			else {
+				$(this).children('.rmm-main-list').show(0);
+				$(this).children('.rmm-toggled').hide(0);
+			}
+		});	
+	}
+
+	$(window).resize(function() {
+ 		adaptMenu();
+	});
 
 
 
