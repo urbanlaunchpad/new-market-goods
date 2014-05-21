@@ -76,13 +76,10 @@ header a {
 	color: #808080;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 5% 10% 3% 0;
+	padding: 5% 5% 3% 5%;
 }
 header span#nav-right {
 	text-align: right;
-}
-header span#nav-right a {
-	padding: 5% 0 3% 10%;
 }
 header a:hover {
  	color: black;
