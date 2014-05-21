@@ -66,7 +66,7 @@
 
 /*	COLUMN WIDTH ON DISPLAYS +768px 
 	You might need to play with media queries here to suite your design. */
-@media ( min-width : 768px ) {
+/*@media ( min-width : 768px ) {*/
 	.span_1 { width: 8.33333333333%; }
 	.span_2 { width: 16.6666666667%; }
 	.span_3 { width: 25%; }
@@ -92,4 +92,4 @@
 	.gutters .span_10 { width: 83.0%; }
 	.gutters .span_11 { width: 91.5%; }
 	.gutters .span_12 { width: 100%; }
-}
+/*}*/

@@ -68,7 +68,7 @@ header {
 	letter-spacing: 3px;
 	background-color: #F2F2F2;
 }
-header nav span {
+header nav div {
 	float: left;
 }
 header a {
@@ -76,24 +76,28 @@ header a {
 	color: #808080;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 5% 10% 3% 0;
+	padding: 5% 5% 3% 5%;
+	vertical-align: top;
 }
-header span#nav-right {
+header div#nav-right {
+	float: right;
 	text-align: right;
-}
-header span#nav-right a {
-	padding: 5% 0 3% 10%;
 }
 header a:hover {
  	color: black;
+}
+header div#mobile-nav {
+	display: none;
+}
+header div#nav-ctr {
+	text-align: center;
 }
 header a.logo {
 	/*background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0wLjcxMSAwIDIyIDIwIj48ZWxsaXBzZSBjeD0iMi45IiBjeT0iMTYuOSIgcng9IjIuOSIgcnk9IjMuMSIvPjxlbGxpcHNlIGN4PSIxMC4zIiBjeT0iMy4xIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjYuNiIgY3k9IjEwIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjE0IiBjeT0iMTAiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTAuMyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTcuNyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48L3N2Zz4=) no-repeat center center;*/
 	height: 22px;
 	width: 20px;
-	/*text-align: center;*/
 	padding: 0;
-	margin: 10% 0 0 50%; /*50% positioning hack*/
+	margin-top: 10%; 
 	fill: black;
 }
 header a.logo:hover {
@@ -295,6 +299,62 @@ aside.product-fabric {
 .product-photo {
 	float: right;
 	padding-top: 6.5em;
+}
+
+/*-------------MEDIA QUERIES-------------*/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1040px) {
+
+}
+
+@media screen and (max-width: 860px) {
+	header a {
+		padding: 5% 3% 3% 3%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header nav #nav-left {
+		display: none;
+	}
+	header div#mobile-nav {
+		display: inline-block;
+		font-size: 18px;
+	}
+	header div#mobile-nav i {
+		padding: 5% 3% 3% 5%;
+	}
+	header div#nav-left a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #dedede;
+	}
+	header div#nav-ctr {
+		padding-bottom: 1%;
+	}
+	header div#nav-right a {
+		padding-right: 5%;
+	}
+	header span#nav-right-text {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		/*font-size: 14px;*/
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
 
 
