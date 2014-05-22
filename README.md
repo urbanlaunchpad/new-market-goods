@@ -7,6 +7,12 @@ The digital storefront for New Market Goods
 
 [Nightly demo site (iuloshi's fork)](http://iuloshi.github.io/new-market-goods/)
 
-## Changelog notes:
 
-3/29/14: Started working exclusively in gh-pages branch--easier to update demo site.
+## Release notes
+**v1.0**: June 1, 2014 to align with Kickstarter campaign
+
+## Changelog notes
+
+03.29.14: Started working exclusively in gh-pages branch--easier to update demo site
+05.21.14: Deleted master branch
+
