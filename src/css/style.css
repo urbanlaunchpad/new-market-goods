@@ -103,11 +103,15 @@ header a.logo {
 header a.logo:hover {
 	fill: #EF4135;
 }
-header i.fa-shopping-cart {
+header i {
 	font-size: 18px;
+}
+header i.fa-shopping-cart,
+header i.fa-envelope {
 	color: #EF4135;
 }
-header i.fa-shopping-cart:hover {
+header i.fa-shopping-cart:hover,
+header i.fa-envelope:hover {
 	color: black;
 }
 footer {
