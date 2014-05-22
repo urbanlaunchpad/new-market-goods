@@ -141,7 +141,7 @@ figure {
 	overflow: hidden;
 }
 figure img.bg-img {
-	/*max-width: 100%;*/
+	max-width: 100%;
 	display: block;
 	position: relative;
 	transition: transform 0.4s;
