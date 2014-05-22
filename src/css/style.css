@@ -233,6 +233,9 @@ aside.product-fabric {
 	margin: 0;
 	overflow: hidden;
 }
+aside.product-fabric img {
+	width: 100%;
+}
 .product-details {
 	float: left;
 	width: 40%;
