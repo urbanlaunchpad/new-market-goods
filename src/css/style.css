@@ -389,8 +389,8 @@ aside.product-fabric img {
 	padding: 0 5%;
 }
 #lookbook-content .hero {
-	background: url("../img/lookbook_01.jpg") no-repeat center top;
-	background-size: cover;
+	background: url("../img/lookbook_01.jpg")  repeat no-repeat top;
+	background-size: contain;
 	height: 380px;
 	margin-top: 3%;
 }
