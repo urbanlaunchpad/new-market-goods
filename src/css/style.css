@@ -16,6 +16,72 @@ body {
 	height: 0;
 	}
 
+/*	12 COLUMN : RESPONSIVE GRID SYSTEM (MODIFIED)
+	DEVELOPER : DENIS LEBLANC
+	URL : http://responsive.gs
+	VERSION : 3.0
+	LICENSE : GPL & MIT */
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	*behavior: url(/scripts/boxsizing.htc); 
+}
+.wrapper { 
+	max-width: 960px;
+	margin: 0 auto; 
+}
+/*	SELF CLEARING FLOATS - CLEARFIX METHOD */
+.container:after,
+.row:after, 
+.col:after, 
+.clr:after, 
+.group:after { 
+	content: ""; 
+	display: table; 
+	clear: both; 
+}
+/* 	DEFAULT ROW STYLES */
+.row { 
+	padding-bottom: 0em;
+}									  
+/* DEFAULT COLUMN STYLES */
+.col { 
+	display: block;
+	float: left;
+	width: 100%;
+	/*margin-left: 2%;*/
+}
+/*.col:first-child { 
+	margin-left: 0; 
+}*/
+/*	COLUMN WIDTH ON DISPLAYS*/ 
+ 	.span_1 { width: 8.33333333333%; }
+	.span_2 { width: 16.6666666667%; }
+	.span_3 { width: 25%; }
+	.span_4 { width: 33.3333333333%; }
+	.span_5 { width: 41.6666666667%; }
+	.span_6 { width: 50%; }
+	.span_7 { width: 58.3333333333%; }
+	.span_8 { width: 66.6666666667%; }
+	.span_9 { width: 75%; }
+	.span_10 { width: 83.3333333333%; }
+	.span_11 { width: 91.6666666667%; }
+	.span_12 { width: 100%; }
+	
+	.gutters .span_1 { width: 6.5%; }
+	.gutters .span_2 { width: 15.0%; }
+	.gutters .span_3 { width: 23.5%; }
+	.gutters .span_4 { width: 32.0%; }
+	.gutters .span_5 { width: 40.5%; }
+	.gutters .span_6 { width: 49.0%; }
+	.gutters .span_7 { width: 57.5%; }
+	.gutters .span_8 { width: 66.0%; }
+	.gutters .span_9 { width: 74.5%; }
+	.gutters .span_10 { width: 83.0%; }
+	.gutters .span_11 { width: 91.5%; }
+	.gutters .span_12 { width: 100%; }
+
 /*===============COLORS=================
 red: #EF4135;
 pacific: #009DDC;
@@ -310,15 +376,17 @@ aside.product-fabric img {
 	padding-top: 6.5em;
 }
 
+/*-------------LOOKBOOK PAGE-------------*/
+.hero {
+	background: url("../img/lookbook_01.jpg") no-repeat center top;
+	background-size: cover;
+	height: 380px;
+	margin-top: 3%;
+}
+
 /*-------------MEDIA QUERIES-------------*/
 
 @media screen and (max-width: 1200px) {
-	body {
-		font-size: 14px;
-	}
-	h1 {
-		letter-spacing: 6px;
-	}
 }
 
 @media screen and (max-width: 1100px) {
@@ -327,12 +395,7 @@ aside.product-fabric img {
 	}
 }
 @media screen and (max-width: 960px) {
-	body {
-		font-size: 12px;
-	}
-	h1 {
-		letter-spacing: 4px;
-	}
+
 	figure img.bg-img {
 		max-width: 150%;
 	}
@@ -376,14 +439,9 @@ aside.product-fabric img {
 }
 
 @media screen and (max-width: 480px) {
-	body {
-		/*font-size: 12px;*/
-	}
-
 }
 
 @media screen and (max-width: 320px) {
-
 }
 
 

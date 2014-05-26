@@ -14,5 +14,6 @@ The digital storefront for New Market Goods
 ## Changelog notes
 
 03.29.14: Started working exclusively in gh-pages branch--easier to update demo site
+
 05.21.14: Deleted master branch
 
