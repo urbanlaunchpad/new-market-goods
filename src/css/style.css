@@ -389,13 +389,21 @@ aside.product-fabric img {
 	padding: 0 5%;
 }
 #lookbook-content .hero {
-	background: url("../img/lookbook_01.jpg")  repeat no-repeat top;
+	background: url("../img/lookbook_01.jpg") repeat no-repeat center top;
 	background-size: contain;
 	height: 380px;
 	margin-top: 3%;
+	padding: 11% 0 0 17%;
+	color: white;
 }
 #lookbook-content .no-left-margin {
 	margin-left: 0;
+}
+#lookbook-content .bangladesh-flag {
+	height: 100px;
+}
+#lookbook-content .lookbook-footer {
+	background: url("../img/footer-pattern.gif") repeat no-repeat left top;
 }
 
 /*-------------MEDIA QUERIES-------------*/
