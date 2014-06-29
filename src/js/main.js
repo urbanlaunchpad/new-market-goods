@@ -9,15 +9,15 @@ $(document).ready(function(){
 
 	function mobileMenu() {
 		$('nav').append($('#nav-left'));
-		$('#nav-right').remove('#nav-right-text');
-		$('#nav-right-text').show();
-		$('#nav-left').removeClass('span_5').addClass('span_12').append($('#nav-right-text')).slideToggle("slow");
+		// $('#nav-right').remove('#nav-right-text');
+		// $('#nav-right-text').show();
+		$('#nav-left').removeClass('nav_span5').addClass('nav_span12').append($('#nav-right-text')).slideToggle("slow");
 		
 		//Reset mobile menu on brower window resize
 		//Not quite functional yet
 		$(window).resize(function(navClone){	
 			if ($('#mobile-nav').css('display') == "none" ){
-				$('#nav-left').removeClass('span_12').addClass('span_5').remove('#nav-right-text');
+				$('#nav-left').removeClass('nav_span12').addClass('nav_span5').remove('#nav-right-text');
 				$('nav').prepend($('#nav-left'));
 				$('#nav-right').prepend($('#nav-right-text'));
 				// $('nav').replaceWith(navClone.clone());

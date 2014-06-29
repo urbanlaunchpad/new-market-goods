@@ -136,6 +136,9 @@ header {
 	letter-spacing: 3px;
 	background-color: #F2F2F2;
 }
+header .nav_span12 {
+	width: 100%;
+}
 header .nav_span5 {
 	width: 41.6666666667%;;
 }
@@ -417,15 +420,18 @@ aside.product-fabric img {
 	}
 }
 @media screen and (max-width: 960px) {
-
 	figure img.bg-img {
 		max-width: 150%;
+	}
+	#lookbook-content .hero {
+		background-size: cover;
 	}
 }
 @media screen and (max-width: 860px) {
 	header a {
 		padding: 5% 3% 3% 3%;
 	}
+
 }
 
 @media screen and (max-width: 768px) {
