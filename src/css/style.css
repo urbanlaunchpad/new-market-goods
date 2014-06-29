@@ -84,14 +84,24 @@ body {
 .gutters > .span_11 { width: 91.5%; }
 .gutters > .span_12 { width: 100%; }
 
-/*===============COLORS=================
-red: #EF4135;
-pacific: #009DDC;
-yellow: #FFD200;
-sky: #8CD2F4;
-orange: #F47735;
-header bg gray: #F2F2F2;
-*/
+/*===============COLORS=================*/
+.red {
+ 	color: #EF4135;
+ }
+.pacific {
+	color: #009DDC;
+}
+.yellow {
+	color: #FFD200;
+}
+.sky {
+	color: #8CD2F4;
+}
+.orange { 
+	color: #F47735;
+}
+/*header bg gray: #F2F2F2;*/
+
 
 /*============TYPOGRAPHY============*/
 
@@ -211,6 +221,17 @@ footer p {
 	width: 40%;
 	float: left;
 }
+#kickstarter p {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 2em;
+	color: black;
+}
+#kickstarter a {
+	text-decoration: none;
+}
 
 #fabrics {
 /*	overflow: auto;*/ /*clearfix*/
@@ -273,32 +294,20 @@ figure:hover figcaption {
 .fabric01 {
 	background-color: #EF4135;
 }
+.figcap01 {
+	background-color: #EF4135;
+}
 .fabric02 {
+	background-color: #009DDC;
+}
+.figcap02 {
 	background-color: #009DDC;
 }
 .fabric03 {
 	background-color: #FFD200;
 }
-.fabric04 {
-	background-color: #8CD2F4;
-}
-.fabric05 {
-	background-color: #F47735;
-}
-.figcap01 {
-	background-color: #EF4135;
-}
-.figcap02 {
-	background-color: #009DDC;
-}
 .figcap03 {
 	background-color: #FFD200;
-}
-.figcap04 {
-	background-color: #8CD2F4;
-}
-.figcap05 {
-	background-color: #F47735;
 }
 
 
@@ -389,7 +398,7 @@ aside.product-fabric img {
 	background-color: #D3332F;
 }
 .product-photo {
-	float: right;
+	float: left;
 	padding-top: 6.5em;
 }
 
@@ -402,8 +411,46 @@ aside.product-fabric img {
 	background-size: contain;
 	height: 380px;
 	margin-top: 3%;
-	padding: 11% 0 0 17%;
+	padding: 11% 0 0 0;
 	color: white;
+}
+#lookbook-content .hero h1 {
+	font-family: 'Lora', Georgia, serif;
+	font-weight: 700;
+	font-size: 3em;
+	text-transform: none;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+#lookbook-content .hero h2 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #FFD200;
+	font-size: 1.25em;
+	margin-bottom: 0;
+}
+#lookbook-content h3 {
+	font-family: 'Lora', Georgia, serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-transform: none;
+	letter-spacing: 0;
+	margin-top: 0;
+	margin-bottom: .25em;
+}
+#lookbook-content h4 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: .9em;
+	line-height: 1.25em;
+	letter-spacing: 1px;
+	margin-top: 0.4em;
+}
+#lookbook-content .copy {
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 #lookbook-content .no-left-margin {
 	margin-left: 0;
@@ -427,6 +474,7 @@ aside.product-fabric img {
 	body {
 	font-size: 14px;
 	}
+
 	#lookbook-content .hero {
 		background-size: cover;
 	}
