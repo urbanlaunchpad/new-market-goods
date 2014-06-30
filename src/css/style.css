@@ -356,10 +356,12 @@ aside.product-fabric img {
 	width: 40%;
 	padding: 7em 4em 0 4em;
 }
-.product-details #icon_popover-blue {
+.product-details .icon_popover {
+	width: 50px;
+	height: 44px;
+	fill: #009DDC;
 	float: left;
-	padding: 2em 1.5em 0 0;
-	vertical-align: center;
+	margin: 1.75em 1.5em 0 0;
 }
 .product-details .product-title {
 	float: left;
@@ -529,7 +531,7 @@ aside.product-fabric img {
 		float: none;
 		margin: 0;
 	}
-	.gutters > .col {
+	.gutters .col {
 		margin: 0;
 	}
 	.span_1, .span_2,	.span_3, .span_4,	.span_5,
@@ -569,6 +571,11 @@ aside.product-fabric img {
 	}
 	header span#nav-right-text {
 		display: none;
+	}
+
+	#lookbook-content .bangladesh h3 {
+		text-align: center;
+		margin-top: 1.5em;
 	}
 }
 
