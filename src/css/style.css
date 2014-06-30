@@ -51,10 +51,10 @@ body {
 	float: left;
 	width: 100%;
 }
-.gutters > .col {
+.gutters .col {
 	margin-left: 2%;
 }
-.gutters > .col:first-child { 
+.gutters .col:first-child { 
 	margin-left: 0; 
 }
 /*	COLUMN WIDTH ON DISPLAYS*/ 
@@ -71,18 +71,18 @@ body {
 .span_11 { width: 91.6666666667%; }
 .span_12 { width: 100%; }
 
-.gutters > .span_1 { width: 6.5%; }
-.gutters > .span_2 { width: 15.0%; }
-.gutters > .span_3 { width: 23.5%; }
-.gutters > .span_4 { width: 32.0%; }
-.gutters > .span_5 { width: 40.5%; }
-.gutters > .span_6 { width: 49.0%; }
-.gutters > .span_7 { width: 57.5%; }
-.gutters > .span_8 { width: 66.0%; }
-.gutters > .span_9 { width: 74.5%; }
-.gutters > .span_10 { width: 83.0%; }
-.gutters > .span_11 { width: 91.5%; }
-.gutters > .span_12 { width: 100%; }
+.gutters .span_1 { width: 6.5%; }
+.gutters .span_2 { width: 15.0%; }
+.gutters .span_3 { width: 23.5%; }
+.gutters .span_4 { width: 32.0%; }
+.gutters .span_5 { width: 40.5%; }
+.gutters .span_6 { width: 49.0%; }
+.gutters .span_7 { width: 57.5%; }
+.gutters .span_8 { width: 66.0%; }
+.gutters .span_9 { width: 74.5%; }
+.gutters .span_10 { width: 83.0%; }
+.gutters .span_11 { width: 91.5%; }
+.gutters .span_12 { width: 100%; }
 
 /*===============COLORS=================*/
 .red {
@@ -404,14 +404,14 @@ aside.product-fabric img {
 
 /*-------------LOOKBOOK PAGE-------------*/
 #lookbook-content .wrapper {
-	padding: 0 5%;
+	padding: 2em 5%;
 }
 #lookbook-content .hero {
 	background: url("../img/lookbook_01.jpg") repeat no-repeat center top;
 	background-size: contain;
 	height: 380px;
 	margin-top: 3%;
-	padding: 11% 0 0 0;
+	padding-top: 11%;
 	color: white;
 }
 #lookbook-content .hero h1 {
@@ -447,13 +447,6 @@ aside.product-fabric img {
 	line-height: 1.25em;
 	letter-spacing: 1px;
 	margin-top: 0.4em;
-}
-#lookbook-content .copy {
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-#lookbook-content .no-left-margin {
-	margin-left: 0;
 }
 #lookbook-content .bangladesh-flag {
 	height: 100px;
@@ -497,12 +490,12 @@ aside.product-fabric img {
 	.span_1, .span_2,	.span_3, .span_4,	.span_5,
 	.span_6, .span_7,	.span_8, .span_9, .span_10, 
 	.span_11, .span_12, 
-	.gutters > .span_1, .gutters > .span_2,
-	.gutters > .span_3, .gutters > .span_4, 
-	.gutters > .span_5, .gutters > .span_6,
-	.gutters > .span_7, .gutters > .span_8,
-	.gutters > .span_9, .gutters > .span_10,
-	.gutters > .span_11, .gutters > .span_12
+	.gutters .span_1, .gutters .span_2,
+	.gutters .span_3, .gutters .span_4, 
+	.gutters .span_5, .gutters .span_6,
+	.gutters .span_7, .gutters .span_8,
+	.gutters .span_9, .gutters .span_10,
+	.gutters .span_11, .gutters .span_12
 	 {
 		width: 100%;
 	}
