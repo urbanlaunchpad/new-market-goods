@@ -202,18 +202,24 @@ header i.fa-envelope:hover {
 	color: black;
 }
 footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
 	width: 100%;
 	background-color: #FFD200;
 }
-footer p {
+footer p,
+footer a:visited {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: .75em;
+	padding: .75em 0;
+	color: black;
+}
+footer a {
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
 }
 
 /*===========FABRIC SECTIONS===========*/
@@ -280,6 +286,11 @@ figcaption {
   padding: 5%;
   padding-top: 50px;
   color: white;
+}
+figcaption .icon_popover {
+	fill: white;
+	height: 44px;
+	width: 50px;
 }
 figure:hover figcaption {
   transform: translateY(0px);
@@ -404,7 +415,7 @@ aside.product-fabric img {
 
 /*-------------LOOKBOOK PAGE-------------*/
 #lookbook-content .wrapper {
-	padding: 2em 5%;
+	padding: 3em 5%;
 }
 #lookbook-content .hero {
 	background: url("../img/lookbook_01.jpg") repeat no-repeat center top;
@@ -448,8 +459,33 @@ aside.product-fabric img {
 	letter-spacing: 1px;
 	margin-top: 0.4em;
 }
+#lookbook-content h4 a {
+	text-decoration: none;
+}
+#lookbook-content h4 a:hover {
+	text-decoration: underline;
+}
+#lookbook-content .pull-quote {
+	background-color: #F2F2F2;
+	text-align: center;
+}
+#lookbook-content .pull-quote .icon_popover {
+	width: 50px;
+	height: 44px;
+	fill: #009DDC;
+}
+#lookbook-content .pull-quote p {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	letter-spacing: 3px;
+}
 #lookbook-content .bangladesh-flag {
-	height: 100px;
+	height: 75px;
+	vertical-align: top;
+	padding-right: 15px;
 }
 #lookbook-content .lookbook-footer {
 	background: url("../img/footer-pattern.gif") repeat no-repeat left top;
