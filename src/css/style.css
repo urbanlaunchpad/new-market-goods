@@ -344,12 +344,12 @@ aside.product-fabric {
 	position: relative;
 	float: left;
 	height: 100%;
-	width: 300px;
+	width: 20%;
 	margin: 0;
 	overflow: hidden;
 }
 aside.product-fabric img {
-	width: 100%;
+	max-width: 150%;
 }
 .product-details {
 	float: left;
@@ -501,6 +501,42 @@ aside.product-fabric img {
 	vertical-align: top;
 	padding-right: 15px;
 }
+
+/*---------------ABOUT PAGE-------------*/
+#about.wrapper {
+	padding: 0 5%;
+}
+#about h1,
+#about h2 {
+	text-align: center;
+}
+#about h1 {
+	margin-top: 2em;
+	font-size: 2em
+}
+#about h1 span {
+	display: block;
+	font-size: .6em;
+	margin-top: .4em;
+}
+#about h2 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.125em;
+	line-height: 1.5em;
+	letter-spacing: 6px;
+	color: #EF4135;
+	margin: 1.5em auto 1.5em auto;
+}
+#about .bangladesh-flag {
+	height: 30px;
+	margin-top: 4em;
+}
+#about .gutters {
+	margin-bottom: 5em;
+}
+
 
 /*-------------MEDIA QUERIES-------------*/
 
