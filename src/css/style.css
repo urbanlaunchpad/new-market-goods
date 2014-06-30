@@ -203,7 +203,16 @@ header i.fa-envelope:hover {
 }
 footer {
 	width: 100%;
+}
+footer .footer-pattern {
+	background: url("../img/footer_pattern.gif") repeat no-repeat left top;
+	height: 43px;
+}
+footer .yellow-bar {
 	background-color: #FFD200;
+}
+footer p {
+	margin-top: 0;
 }
 footer p,
 footer a:visited {
@@ -220,6 +229,9 @@ footer a {
 }
 footer a:hover {
 	text-decoration: underline;
+}
+footer .wrapper {
+	padding: 0 5%;
 }
 
 /*===========FABRIC SECTIONS===========*/
@@ -486,9 +498,6 @@ aside.product-fabric img {
 	height: 75px;
 	vertical-align: top;
 	padding-right: 15px;
-}
-#lookbook-content .lookbook-footer {
-	background: url("../img/footer-pattern.gif") repeat no-repeat left top;
 }
 
 /*-------------MEDIA QUERIES-------------*/
