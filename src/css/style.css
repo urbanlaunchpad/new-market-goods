@@ -512,7 +512,8 @@ aside.product-fabric img {
 }
 #about h1 {
 	margin-top: 2em;
-	font-size: 2em
+	font-size: 2em;
+	font-family: 'Omnes Pro', Helvetica, Arial, sans-serif;
 }
 #about h1 span {
 	display: block;
