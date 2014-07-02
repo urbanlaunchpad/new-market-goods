@@ -524,6 +524,8 @@ aside.product-fabric img {
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
+	vertical-align: top;
+	margin-top: 20px;
 }
 #about h1 span.goods {
 	display: block;
