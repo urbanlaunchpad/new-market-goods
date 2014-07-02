@@ -515,7 +515,7 @@ aside.product-fabric img {
 	margin-top: 2em;
 	font-size: 2em;
 	font-family: 'omnes-pro', Helvetica, Arial, sans-serif;
-	letter-spacing: 3px;
+	letter-spacing: 8px;
 }
 #about h1 span.m {
 	display: inline-block;
@@ -527,11 +527,11 @@ aside.product-fabric img {
 	vertical-align: top;
 	margin-top: 4px;
 	letter-spacing: 0;
+	padding-left: .25em;
 }
 #about h1 span.goods {
 	display: block;
-	font-size: 0.75em;
-	margin-top: 0.125em;
+	font-size: 0.6em;
 }
 #about h2 {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
