@@ -237,7 +237,10 @@ footer .wrapper {
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
 	width: 40%;
+	height: 100%;
 	float: left;
+	background-image: url('../img/kickstarter.jpg');
+	background-size: cover;
 }
 #kickstarter p {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -246,6 +249,7 @@ footer .wrapper {
 	letter-spacing: 3px;
 	font-size: 2em;
 	color: black;
+	margin: 3em 0 0 1em;
 }
 #kickstarter a {
 	text-decoration: none;
