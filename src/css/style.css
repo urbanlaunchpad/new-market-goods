@@ -515,11 +515,20 @@ aside.product-fabric img {
 	margin-top: 2em;
 	font-size: 2em;
 	font-family: 'omnes-pro', Helvetica, Arial, sans-serif;
+	letter-spacing: 3px;
 }
-#about h1 span {
+#about h1 span.m {
+	display: inline-block;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+}
+#about h1 span.goods {
 	display: block;
-	font-size: .6em;
-	margin-top: .4em;
+	font-size: 0.75em;
+	margin-top: 0.125em;
 }
 #about h2 {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -538,8 +547,9 @@ aside.product-fabric img {
 	height: 30px;
 	margin-top: 4em;
 }
-#about .gutters {
-	margin-bottom: 5em;
+#about .kickstarter-btn {
+	display: inline-block;
+	text-align: center;
 }
 #about button {
 	border: 2px solid #EF4135;
@@ -550,11 +560,14 @@ aside.product-fabric img {
 	letter-spacing: 4px;
 	background-color: #FFF;
 	color: #EF4135;
-	margin-top: 2em;
+	margin: 2em 0 5em 0;
 }
 #about button:hover {
 	background-color: #EF4135;
 	color: #FFF;	
+}
+.ctr {
+	text-align: center;
 }
 
 
