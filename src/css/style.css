@@ -460,7 +460,7 @@ aside.product-fabric img {
 	margin-bottom: 0;
 }
 #lookbook-content h3,
-#about h3 {
+#about h4 {
 	font-family: 'Lora', Georgia, serif;
 	font-weight: 400;
 	font-size: 1.5em;
@@ -515,13 +515,13 @@ aside.product-fabric img {
 #about h2 {
 	text-align: center;
 }
-#about h1 {
+#about h1.logo-type {
 	margin-top: 2em;
 	font-size: 2em;
 	font-family: 'omnes-pro', Helvetica, Arial, sans-serif;
 	letter-spacing: 8px;
 }
-#about h1 span.m {
+#about h1.logo-type span.m {
 	display: inline-block;
 	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
@@ -533,7 +533,7 @@ aside.product-fabric img {
 	letter-spacing: 0;
 	padding-left: .25em;
 }
-#about h1 span.goods {
+#about h1.logo-type span.goods {
 	display: block;
 	font-size: 0.6em;
 }
@@ -541,14 +541,20 @@ aside.product-fabric img {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: 1.125em;
+	font-size: 1.25em;
 	line-height: 1.5em;
 	letter-spacing: 4px;
 	color: #EF4135;
 	margin: 1.5em auto 2.5em auto;
 }
 #about h3 {
-	font-size: 1.25em;
+	font-size: 1.125em;
+}
+#about h4 {
+	font-size: 1.125em;
+	line-height: 1.35em;
+	margin-bottom: -.25em;
+	margin-top: 1.5em;
 }
 #about .bangladesh-flag {
 	height: 30px;
