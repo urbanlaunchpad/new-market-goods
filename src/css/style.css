@@ -549,6 +549,7 @@ aside.product-fabric img {
 }
 #about h3 {
 	font-size: 1.125em;
+	line-height: 1.5em;
 }
 #about h4 {
 	font-size: 1.125em;
@@ -566,7 +567,7 @@ aside.product-fabric img {
 }
 #about button {
 	border: 2px solid #EF4135;
-	padding: .5em 1em;
+	padding: .75em 1.5em;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -655,6 +656,9 @@ aside.product-fabric img {
 		display: none;
 	}
 
+	#lookbook-content .hero .wrapper {
+		padding: 12em 5% 0 5%;
+	}
 	#lookbook-content .bangladesh h3 {
 		text-align: center;
 		margin-top: 1.5em;
