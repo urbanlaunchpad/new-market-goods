@@ -319,22 +319,22 @@ figure:hover figcaption {
   -o-transition: -o-transform 0.4s;
 }
 .fabric01 {
-	background-color: #EF4135;
+	background-color: #8CD2F4;
 }
 .figcap01 {
-	background-color: #EF4135;
+	background-color: #8CD2F4;
 }
 .fabric02 {
-	background-color: #009DDC;
+	background-color: #FFD200;
 }
 .figcap02 {
-	background-color: #009DDC;
+	background-color: #FFD200;
 }
 .fabric03 {
-	background-color: #FFD200;
+	background-color: #009DDC;
 }
 .figcap03 {
-	background-color: #FFD200;
+	background-color: #009DDC;
 }
 
 
