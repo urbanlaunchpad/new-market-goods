@@ -241,6 +241,7 @@ footer .wrapper {
 	float: left;
 	background-image: url('../img/kickstarter.jpg');
 	background-size: cover;
+	border-right: 1px solid white;
 }
 #kickstarter p {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -267,6 +268,7 @@ figure {
 	float: left;
 	height: 100%;
 	/*width: 300px;*/
+	/*min-width: 250px;*/
 	width: 20%;
 	margin: 0;
 	overflow: hidden;
@@ -601,6 +603,54 @@ aside.product-fabric img {
 	body {
 	font-size: 14px;
 	}
+	figure,
+	#kickstarter {
+		width: 100%;
+		border: none;
+	}
+	#kickstarter {
+		height: 480px;
+	}
+	figure img.bg-img {
+		width: auto;
+		margin-top: 0;
+		display: block;
+		position: relative;
+		transition: transform none;
+		-webkit-transition: -webkit-transform none;
+		-moz-transition: -moz-transform none;
+		-o-transition: -o-transform none;
+	}
+	figure:hover img.bg-img {
+		transform: translateY(0);
+	  -webkit-transform: translateY(0);
+	  -moz-transform: translateY(0);
+	  -o-transform: translateY(0);
+	}
+	figure figcaption {
+	  position: absolute;
+	  width: 100%;
+	  top: auto;
+	  transform: translateY(0);
+	  -webkit-transform: translateY(0);
+	  -moz-transform: translateY(0);
+	  -o-transform: translateY(0); 
+	  padding: 5%;
+	}
+	figure:hover figcaption {
+	  transition: transform none;
+	  -webkit-transition: -webkit-transform none;
+	  -moz-transition: -moz-transform none;
+	  -o-transition: -o-transform none;
+	}
+	figure figcaption .icon_popover {
+		float: left;
+		margin: .4em 1em 0 0;
+	}
+	figure figcaption h1,
+	figure figcaption h2 {
+		margin: 0;
+	}
 
 	#lookbook-content .hero {
 		background-size: cover;
@@ -629,8 +679,7 @@ aside.product-fabric img {
 	.gutters .span_5, .gutters .span_6,
 	.gutters .span_7, .gutters .span_8,
 	.gutters .span_9, .gutters .span_10,
-	.gutters .span_11, .gutters .span_12
-	 {
+	.gutters .span_11, .gutters .span_12 {
 		width: 100%;
 	}
 	header nav #nav-left {
@@ -670,6 +719,7 @@ aside.product-fabric img {
 }
 
 @media screen and (max-width: 480px) {
+
 }
 
 @media screen and (max-width: 320px) {
