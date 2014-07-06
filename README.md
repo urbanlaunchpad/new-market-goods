@@ -9,7 +9,7 @@ The digital storefront for New Market Goods
 
 
 ## Release notes
-**v1.0**: June 1, 2014 to align with Kickstarter campaign
+**v1.0**: Summer 2014 to align with Kickstarter campaign
 
 ## Changelog notes
 

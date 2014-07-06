@@ -272,9 +272,11 @@ figure {
 	overflow: hidden;
 }
 figure img.bg-img {
+	min-width: 100%;
 	max-width: 150%;
 	display: block;
 	position: relative;
+	margin-top: 50px;
 	transition: transform 0.4s;
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
@@ -353,7 +355,9 @@ aside.product-fabric {
 	overflow: hidden;
 }
 aside.product-fabric img {
+	min-width: 100%;
 	max-width: 150%;
+	margin-top: 50px;
 }
 .product-details {
 	float: left;
