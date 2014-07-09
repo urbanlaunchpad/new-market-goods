@@ -381,9 +381,10 @@ aside.product-fabric img {
 	margin-bottom: 0;
 }
 .product-details h2 {
-	margin-top: .5em;
-	color: #EF4135;
+	color: #B3B3B3;
 	font-size: 1.125em;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	margin: .75em 0 1.5em 0;
 }
 .product-details .price {
 	margin-bottom: 3em;
@@ -428,6 +429,7 @@ aside.product-fabric img {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 3px;	
+	margin-top: 2em;
 }
 .product-details button:hover {
 	background-color: #D3332F;
