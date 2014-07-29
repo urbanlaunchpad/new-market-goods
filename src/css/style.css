@@ -268,8 +268,8 @@ footer .wrapper {
 	text-decoration: none;
 }
 #kickstarter p a:hover {
-	border-bottom: 1px solid #fff;
-	padding-bottom: 3px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.0875em;
 	color: #fff;
 }
 #kickstarter img {
