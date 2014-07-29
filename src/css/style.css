@@ -243,14 +243,34 @@ footer .wrapper {
 	background-size: cover;
 	border-right: 1px solid white;
 }
-#kickstarter p {
+#kickstarter h1 {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 1.5em;
+	line-height: 1.675em;
 	color: black;
 	margin: 4em 0 0 1em;
+}
+#kickstarter p {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	color: black;
+	margin: 1em 0 0 1em;
+}
+#kickstarter p a {
+	border-bottom: 2px solid black;
+	padding-bottom: 0.0875em;
+	color: black;
+	text-decoration: none;
+}
+#kickstarter p a:hover {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+	color: #fff;
 }
 #kickstarter img {
 	height: 50px;
