@@ -247,6 +247,9 @@ footer .dot-pattern {
 footer #pattern {
 	overflow: hidden;
 }
+footer.overlow-hidden {
+	overflow-x: hidden;
+}
 
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
