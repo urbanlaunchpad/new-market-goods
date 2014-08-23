@@ -621,6 +621,7 @@ aside.product-fabric img {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
+	margin-bottom: 2em;
 	height: 0;
 }
 #about .videoWrapper iframe {
