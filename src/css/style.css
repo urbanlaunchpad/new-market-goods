@@ -233,13 +233,6 @@ footer a:hover {
 footer .wrapper {
 	padding: 0 5%;
 }
-hr.ftr-pattern {
-	margin: 0 0 10px 0;
-    border: dotted;
-    height: 5px;
-    color: #8CD1F4;
-    background-color: #8CD1F4;
-}
 footer .dot-repeat {
 	background-repeat: repeat-x;
 }
@@ -249,7 +242,7 @@ footer .dot-pattern {
 	width: 20px;
 	padding: 0;
 	margin-top: 10%; 
-	fill: black;
+	fill: #8CD1F4;
 }
 
 /*===========FABRIC SECTIONS===========*/
