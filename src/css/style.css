@@ -234,10 +234,10 @@ footer .wrapper {
 	padding: 0 5%;
 }
 hr .ftr-pattern {
+	margin: 0 0 5px 0;
     border: 0;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 1px dotted #ccc;
     background: #999;
-}
 }
 
 /*===========FABRIC SECTIONS===========*/
