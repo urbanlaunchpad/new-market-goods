@@ -234,8 +234,8 @@ footer .wrapper {
 	padding: 0 5%;
 }
 hr.ftr-pattern {
-	margin: 0 0 5px 0;
-    border: 1px dotted #ccc;
+	margin: 0 0 10px 0;
+    border: 2px dotted #ccc;
 }
 
 /*===========FABRIC SECTIONS===========*/
