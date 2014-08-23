@@ -247,6 +247,7 @@ footer .dot-pattern {
 	padding: 0;
 	margin-top: 10%; 
 	fill: black;
+	background-repeat: repeat-x;
 }
 
 /*===========FABRIC SECTIONS===========*/
