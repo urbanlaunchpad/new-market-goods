@@ -233,6 +233,12 @@ footer a:hover {
 footer .wrapper {
 	padding: 0 5%;
 }
+hr .footer-pattern {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+}
 
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
