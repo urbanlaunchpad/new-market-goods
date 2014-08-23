@@ -248,6 +248,7 @@ footer #pattern {
 	overflow: hidden;
 }
 footer.overlow-hidden {
+	width: auto;
 	overflow-x: hidden;
 }
 
