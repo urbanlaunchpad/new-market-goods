@@ -244,6 +244,9 @@ footer .dot-pattern {
 	margin-top: 10%; 
 	fill: #8CD1F4;
 }
+footer #pattern {
+	overflow: hidden;
+}
 
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
