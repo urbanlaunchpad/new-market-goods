@@ -240,6 +240,9 @@ hr.ftr-pattern {
     color: #8CD1F4;
     background-color: #8CD1F4;
 }
+footer .dot-repeat {
+	background-repeat: repeat-x;
+}
 footer .dot-pattern {
 	/*background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0wLjcxMSAwIDIyIDIwIj48ZWxsaXBzZSBjeD0iMi45IiBjeT0iMTYuOSIgcng9IjIuOSIgcnk9IjMuMSIvPjxlbGxpcHNlIGN4PSIxMC4zIiBjeT0iMy4xIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjYuNiIgY3k9IjEwIiByeD0iMi45IiByeT0iMy4xIi8+PGVsbGlwc2UgY3g9IjE0IiBjeT0iMTAiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTAuMyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48ZWxsaXBzZSBjeD0iMTcuNyIgY3k9IjE2LjkiIHJ4PSIyLjkiIHJ5PSIzLjEiLz48L3N2Zz4=) no-repeat center center;*/
 	height: 22px;
@@ -247,7 +250,6 @@ footer .dot-pattern {
 	padding: 0;
 	margin-top: 10%; 
 	fill: black;
-	background-repeat: repeat-x;
 }
 
 /*===========FABRIC SECTIONS===========*/
