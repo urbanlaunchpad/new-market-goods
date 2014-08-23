@@ -247,7 +247,7 @@ footer .dot-pattern {
 footer #pattern {
 	overflow: hidden;
 }
-footer.overlow-hidden {
+footer.overflow-hidden {
 	width: auto;
 	overflow-x: hidden;
 }
