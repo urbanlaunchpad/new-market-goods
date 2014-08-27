@@ -233,6 +233,9 @@ footer a:hover {
 footer .wrapper {
 	padding: 0 5%;
 }
+footer #pattern {
+	overflow: hidden;
+}
 
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
@@ -615,6 +618,21 @@ aside.product-fabric img {
 }
 .ctr {
 	text-align: center;
+}
+
+#about .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 1em;
+	margin-bottom: 2em;
+	height: 0;
+}
+#about .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 
