@@ -650,10 +650,12 @@ th, td {
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 th {
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+	font-weight: 400;
 	font-size: 1em;
+}
+td {
+	font-weight: 300;
+	font-size: 0.875em;
 }
 table.sizing tr:nth-child(even) {
     background-color: #F2F2F2;
