@@ -655,7 +655,7 @@ th {
 }
 td {
 	font-weight: 300;
-	font-size: 0.875em;
+	font-size: 1em;
 }
 table.sizing tr:nth-child(even) {
     background-color: #F2F2F2;
