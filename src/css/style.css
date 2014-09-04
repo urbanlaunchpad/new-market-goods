@@ -635,7 +635,12 @@ aside.product-fabric img {
 	height: 100%;
 }
 
-/*==========TABLES===========*/
+/*==========SIZING===========*/
+
+.table-image {
+	width:100%;
+	margin-bottom:-1%;
+}
 
 table.sizing {
     width: 100%; 
@@ -657,14 +662,20 @@ td {
 	font-weight: 300;
 	font-size: 1em;
 }
+table.sizing th	{
+    background-color: #FFC600;
+}
 table.sizing tr:nth-child(even) {
     background-color: #F2F2F2;
 }
 table.sizing tr:nth-child(odd) {
    background-color:#F8F8F8;
 }
-table.sizing th	{
-    background-color: #FFC600;
+table.sizing tr:nth-child(even) td:hover {
+  background-color: #ffecaa;
+}
+table.sizing tr:nth-child(odd) td:hover {
+  background-color: #fff4cc;
 }
 
 /*-------------MEDIA QUERIES-------------*/
