@@ -635,7 +635,12 @@ aside.product-fabric img {
 	height: 100%;
 }
 
-/*==========TABLES===========*/
+/*==========SIZING===========*/
+
+.table-image {
+	width:100%;
+	margin-bottom:-1%;
+}
 
 table.sizing {
     width: 100%; 
