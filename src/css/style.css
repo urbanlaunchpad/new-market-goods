@@ -413,8 +413,17 @@ aside.product-fabric img {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	margin: .75em 0 1.5em 0;
 }
+.product-details h5 {
+	font-size: .75em;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight:400;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+	line-height: 1.675em;
+	margin: .75em 0 1.5em 0;
+}
 .product-details .price {
-	margin-bottom: 3em;
+	/*margin-bottom: 3em;*/
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -456,7 +465,18 @@ aside.product-fabric img {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 3px;	
-	margin-top: 2em;
+	/*margin-top: 2em;*/
+}
+.product-details p a {
+	border-bottom: 2px solid;
+	padding-bottom: 0.0875em;
+	color: black;
+	text-decoration: none;
+}
+.product-details p a:hover {
+	border-bottom: 2px solid;
+	padding-bottom: 0.0875em;
+	color: #FFC600;
 }
 .product-details button:hover {
 	background-color: #D3332F;
