@@ -371,26 +371,24 @@ figure:hover figcaption {
 
 /*===========PRODUCT PAGE===========*/
 
-.product-content {
+.product-container {
 	max-width: 1200px;
 }
-aside.product-fabric {
+.product-fabric {
 	display: inline-block;
 	position: relative;
 	float: left;
 	height: 100%;
-	width: 20%;
 	margin: 0;
+	padding: 0;
 	overflow: hidden;
 }
-aside.product-fabric img {
+.product-fabric img {
 	min-width: 100%;
-	max-width: 150%;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 .product-details {
 	float: left;
-	width: 40%;
 	padding: 7em 4em 0 4em;
 }
 .product-details .icon_popover {
@@ -481,9 +479,15 @@ aside.product-fabric img {
 .product-details button:hover {
 	background-color: #D3332F;
 }
+
+.product-photo-container {
+	float: right;
+}
+
 .product-photo {
 	float: left;
 	padding-top: 6.5em;
+	max-width: 100%;
 }
 
 /*-------------LOOKBOOK PAGE-------------*/
@@ -823,10 +827,36 @@ table.sizing tr:nth-child(odd) td:hover {
 		text-align: center;
 		margin-top: 1.5em;
 	}
+
+	.product-details {
+		padding-top: 2em;
+	}
+
+	.product-fabric {
+		width: 100%;
+		height: 80px;
+		padding: 0;
+	}
+
+	.product-photo-container {
+		max-width: 520px;
+		float: none;
+		margin: auto;
+	}
+
+	.product-photo {
+		padding-top: 2em;
+	}
 }
 
 @media screen and (max-width: 480px) {
+	.product-details {
+		padding: 2em 2em 0 2em;
+	}
 
+	.product-photo {
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 320px) {
