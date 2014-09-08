@@ -490,6 +490,9 @@ aside.product-fabric img {
 #lookbook-content .wrapper {
 	padding: 3em 5%;
 }
+#lookbook-content .container .wrapper {
+	padding-bottom: 0;
+}
 #lookbook-content .hero {
 	background: url("../img/lookbook_01.jpg") repeat no-repeat center top;
 	background-size: contain;
@@ -526,18 +529,18 @@ aside.product-fabric img {
 }
 #lookbook-content h4 {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: uppercase;
-	font-size: .9em;
+	font-size: .875em;
 	line-height: 1.25em;
-	letter-spacing: 1px;
-	margin-top: 0.4em;
+	letter-spacing: 3px;
+	margin-top: .4em;
 }
 #lookbook-content h4 a {
 	text-decoration: none;
 }
 #lookbook-content h4 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 #lookbook-content .pull-quote {
 	background-color: #F2F2F2;
