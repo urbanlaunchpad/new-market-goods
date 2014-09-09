@@ -88,33 +88,23 @@
 	display: block;
 }
 
-/* Example media queries */
+/* Media queries */
 
-@media screen and (max-width: 52.375em) {
-	.tabs nav a span {
-		/*display: none;*/
-	}
-
-	.tabs nav a:before {
-		margin-right: 0;
-	}
-}
-
-@media screen and (max-width: 32em) {
+@media screen and (max-width: 35em) {
+	
 	.tabs nav ul,
-	.tabs nav ul li a {
+	.tabs nav ul li {
 		width: 100%;
 		padding: 0;
-		margin-left: 10px;
+		margin: 0 auto;
 	}
 
-	.tabs nav ul li {
-		width: 20%;
-		width: calc(35% + 1px);
-		margin: 0 0 0 -1px;
+	.tabs nav li.tab-current a h4 {
+		color: black;
+		border-bottom: 3px solid black;
+		margin: 0 20% .5em 20%;
+		padding-bottom: .5em;
+		text-decoration: none;
 	}
-
-	.tabs nav ul li:last-child {
-		border-right: none;
-	}
+	
 }
