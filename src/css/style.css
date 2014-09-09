@@ -478,7 +478,7 @@ aside.product-fabric img {
 	padding-bottom: 0.0875em;
 	color: #FFC600;
 }
-.product-details button:hover {
+.product-details button:hover, #lookbook-content button:hover {
 	background-color: #D3332F;
 }
 .product-photo {
@@ -489,6 +489,9 @@ aside.product-fabric img {
 /*-------------LOOKBOOK PAGE-------------*/
 #lookbook-content .wrapper {
 	padding: 3em 5%;
+}
+#lookbook-content .container .wrapper {
+	padding-bottom: 0;
 }
 #lookbook-content .hero {
 	background: url("../img/lookbook_01.jpg") repeat no-repeat center top;
@@ -526,18 +529,18 @@ aside.product-fabric img {
 }
 #lookbook-content h4 {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: uppercase;
-	font-size: .9em;
+	font-size: .875em;
 	line-height: 1.25em;
-	letter-spacing: 1px;
-	margin-top: 0.4em;
+	letter-spacing: 3px;
+	margin-top: .4em;
 }
 #lookbook-content h4 a {
 	text-decoration: none;
 }
 #lookbook-content h4 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 #lookbook-content .pull-quote {
 	background-color: #F2F2F2;
@@ -560,6 +563,17 @@ aside.product-fabric img {
 	height: 75px;
 	vertical-align: top;
 	padding-right: 15px;
+}
+#lookbook-content button {
+	border: 0;
+	padding: .75em 1.5em;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background-color: #EF4135;
+	color: white;
+	margin: 2em 0 5em 0;
 }
 
 /*---------------ABOUT PAGE-------------*/
