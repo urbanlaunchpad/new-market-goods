@@ -735,6 +735,7 @@ table.sizing tr:nth-child(odd) td:hover {
 	body {
 	font-size: 14px;
 	}
+	#fabrics,
 	figure,
 	#kickstarter {
 		width: 100%;
