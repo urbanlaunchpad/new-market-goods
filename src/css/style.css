@@ -239,7 +239,8 @@ footer #pattern {
 
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
-	width: 40%;
+	/*width: 40%;*/
+	width: 600px;
 	height: 100%;
 	float: left;
 	background-image: url('../img/kickstarter.jpg');
@@ -286,17 +287,17 @@ footer #pattern {
 #fabrics {
 /*	overflow: auto;*/ /*clearfix*/
 	height: 100%;
-	/*width: 2400px;*/
-	width: 100%;
+	width: 1800px;
+	/*width: 100%;*/
 }
 figure {
 	display: inline-block;
 	position: relative;
 	float: left;
 	height: 100%;
-	/*width: 300px;*/
-	/*min-width: 250px;*/
-	width: 20%;
+	width: 300px;
+	min-width: 250px;
+	/*width: 20%;*/
 	margin: 0;
 	overflow: hidden;
 }
@@ -366,6 +367,12 @@ figure:hover figcaption {
 }
 .figcap03 {
 	background-color: #009DDC;
+}
+.fabric04 {
+	background-color: #EF4135;
+}
+.figcap04 {
+	background-color: #EF4135;
 }
 
 
