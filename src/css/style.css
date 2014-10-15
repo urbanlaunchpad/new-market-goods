@@ -239,7 +239,8 @@ footer #pattern {
 
 /*===========FABRIC SECTIONS===========*/
 #kickstarter {
-	width: 40%;
+	/*width: 40%;*/
+	width: 600px;
 	height: 100%;
 	float: left;
 	background-image: url('../img/kickstarter.jpg');
@@ -286,17 +287,17 @@ footer #pattern {
 #fabrics {
 /*	overflow: auto;*/ /*clearfix*/
 	height: 100%;
-	/*width: 2400px;*/
-	width: 100%;
+	width: 1800px;
+	/*width: 100%;*/
 }
 figure {
 	display: inline-block;
 	position: relative;
 	float: left;
 	height: 100%;
-	/*width: 300px;*/
-	/*min-width: 250px;*/
-	width: 20%;
+	width: 300px;
+	min-width: 250px;
+	/*width: 20%;*/
 	margin: 0;
 	overflow: hidden;
 }
@@ -366,6 +367,12 @@ figure:hover figcaption {
 }
 .figcap03 {
 	background-color: #009DDC;
+}
+.fabric04 {
+	background-color: #EF4135;
+}
+.figcap04 {
+	background-color: #EF4135;
 }
 
 
@@ -728,58 +735,6 @@ table.sizing tr:nth-child(odd) td:hover {
 	body {
 	font-size: 14px;
 	}
-	figure,
-	#kickstarter {
-		width: 100%;
-		border: none;
-	}
-	#kickstarter {
-		height: 480px;
-	}
-	figure img.bg-img {
-		width: auto;
-		margin-top: 0;
-		display: block;
-		position: relative;
-		transition: transform none;
-		-webkit-transition: -webkit-transform none;
-		-moz-transition: -moz-transform none;
-		-o-transition: -o-transform none;
-	}
-	figure:hover img.bg-img {
-		transform: translateY(0);
-	  -webkit-transform: translateY(0);
-	  -moz-transform: translateY(0);
-	  -o-transform: translateY(0);
-	}
-	figure figcaption {
-	  position: absolute;
-	  width: 100%;
-	  top: auto;
-	  transform: translateY(0);
-	  -webkit-transform: translateY(0);
-	  -moz-transform: translateY(0);
-	  -o-transform: translateY(0); 
-	  padding: 5%;
-	}
-	figure:hover figcaption {
-	  transition: transform none;
-	  -webkit-transition: -webkit-transform none;
-	  -moz-transition: -moz-transform none;
-	  -o-transition: -o-transform none;
-	}
-	figure figcaption .icon_popover {
-		float: left;
-		margin: .4em 1em 0 0;
-	}
-	figure figcaption h1,
-	figure figcaption h2 {
-		margin: 0;
-	}
-
-	#lookbook-content .hero {
-		background-size: cover;
-	}
 }
 @media only screen and (max-width: 860px) {
 	header a {
@@ -834,6 +789,59 @@ table.sizing tr:nth-child(odd) td:hover {
 		display: none;
 	}
 
+	#fabrics,
+	figure,
+	#kickstarter {
+		width: 100%;
+		border: none;
+	}
+	#kickstarter {
+		height: 480px;
+	}
+	figure img.bg-img {
+		width: auto;
+		margin-top: 0;
+		display: block;
+		position: relative;
+		transition: transform none;
+		-webkit-transition: -webkit-transform none;
+		-moz-transition: -moz-transform none;
+		-o-transition: -o-transform none;
+	}
+	figure:hover img.bg-img {
+		transform: translateY(0);
+	  -webkit-transform: translateY(0);
+	  -moz-transform: translateY(0);
+	  -o-transform: translateY(0);
+	}
+	figure figcaption {
+	  position: absolute;
+	  width: 100%;
+	  top: auto;
+	  transform: translateY(0);
+	  -webkit-transform: translateY(0);
+	  -moz-transform: translateY(0);
+	  -o-transform: translateY(0); 
+	  padding: 5%;
+	}
+	figure:hover figcaption {
+	  transition: transform none;
+	  -webkit-transition: -webkit-transform none;
+	  -moz-transition: -moz-transform none;
+	  -o-transition: -o-transform none;
+	}
+	figure figcaption .icon_popover {
+		float: left;
+		margin: .4em 1em 0 0;
+	}
+	figure figcaption h1,
+	figure figcaption h2 {
+		margin: 0;
+	}
+
+	#lookbook-content .hero {
+		background-size: cover;
+	}	
 	#lookbook-content .hero .wrapper {
 		padding: 12em 5% 0 5%;
 	}
