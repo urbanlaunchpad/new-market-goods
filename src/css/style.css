@@ -208,6 +208,9 @@ header a {
 	padding: 5% 5% 3% 5%;
 	vertical-align: top;
 }
+header a:hover {
+	text-decoration: none;
+}
 header div#nav-right {
 	float: right;
 	text-align: right;
@@ -789,7 +792,7 @@ table.sizing tr:nth-child(odd) td:hover {
 		width: 100%;
 		text-align: center;
 		padding: 10px 0px 10px 0px;
-		/*border-bottom: 1px solid #dedede;*/
+		border-bottom: 1px solid #dedede;
 	}
 	header div#nav-ctr {
 		padding-bottom: 1%;
