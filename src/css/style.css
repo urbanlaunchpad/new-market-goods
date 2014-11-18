@@ -105,25 +105,64 @@ body {
 
 /*============TYPOGRAPHY============*/
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 400;
+}
+
+h5, h6 {
+	font-weight: 500;
+}
+
+h1.caps, h2.caps, h3.caps, h4.caps, h5.caps, h6.caps {
 	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 1.75em;
+	letter-spacing: 5px;	
+}
+
+h1 {
+	font-size: 2.5000em; /* 40px */
+	line-height: 1.0500em; /* 42px */
+	margin-top: 0.5250em;
+	margin-bottom: 0.0000em;
 }
 h2 {
-	font-family: 'Lora', Georgia, serif;
-	font-weight: 400;
-	font-size: 1.125em;
+	font-size: 2.0000em; /* 32px */
+  	line-height: 1.3125em; /* 42px */
+  	margin-top: 0.6563em;  
+  	margin-bottom: 0.0000em;
 }
 h3 {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 1em;
+  	font-size: 1.7500em; /* 28px */
+  	line-height: 1.5000em; /* 42px */
+  	margin-top: 0.7500em;  
+  	margin-bottom: 0.0000em;
 }
+h4 {
+  	font-size: 1.5000em; /* 24px */
+  	line-height: 1.7500em; /* 42px */
+  	margin-top: 0.8750em;  
+  	margin-bottom: 0.0000em;
+}
+h5 {
+ 	font-size: 1.1250em; /* 18px */
+ 	line-height: 1.1667em; /* 21px */
+ 	margin-top: 1.1667em;  
+ 	margin-bottom: 0.0000em;
+}
+h6 {
+  	font-size: 1.0000em; /* 16px */
+  	line-height: 1.3125em; /* 21px */
+  	margin-top: 1.3125em;  
+  	margin-bottom: 0.0000em;
+}
+
+h1.serif, h2.serif, h3.serif, h4.serif, h5.serif, h6.serif {
+	font-family: 'Lora', Georgia, serif;
+}
+
 p {
 	font-family: 'Lora', Georgia, serif;
 	font-weight: 400;
