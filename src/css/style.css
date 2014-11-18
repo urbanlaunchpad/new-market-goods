@@ -442,15 +442,10 @@ figure:hover figcaption {
 	float: left;
 }
 .product-details h1 {
-	font-size: 2em;
+/*	font-size: 2em;*/
 	margin-bottom: 0;
 }
-.product-details h2 {
-	color: #B3B3B3;
-	font-size: 1.125em;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	margin: .75em 0 1.5em 0;
-}
+
 .product-details h5 {
 	font-size: .75em;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
