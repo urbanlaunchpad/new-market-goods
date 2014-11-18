@@ -351,9 +351,9 @@ figure img.bg-img {
 }
 figure:hover img.bg-img {
 	transform: translateY(-150px);
-  -webkit-transform: translateY(-150px);
-  -moz-transform: translateY(-150px);
-  -o-transform: translateY(-150px);
+	-webkit-transform: translateY(-150px);
+	-moz-transform: translateY(-150px);
+	-o-transform: translateY(-150px);
 }
 figcaption {
   position: absolute;
@@ -368,14 +368,19 @@ figcaption {
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   -o-transition: -o-transform 0.4s;
-  padding: 5%;
-  padding-top: 50px;
+  padding: 10%;
+  padding-top: 40px;
   color: white;
 }
 figcaption .icon_popover {
 	fill: white;
 	height: 44px;
 	width: 50px;
+	float: left;
+}
+figcaption h2 {
+	margin-top: -0.25em;
+	margin-left: 2.125em;
 }
 figure:hover figcaption {
   transform: translateY(0px);
@@ -845,7 +850,9 @@ table.sizing tr:nth-child(odd) td:hover {
 	}
 	figure figcaption .icon_popover {
 		float: left;
-		margin: .4em 1em 0 0;
+		margin: 0em 1em 0 0;
+		width: 32px;
+		height: 36px;
 	}
 	figure figcaption h1,
 	figure figcaption h2 {
