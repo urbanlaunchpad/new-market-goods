@@ -100,6 +100,9 @@ body {
 .orange { 
 	color: #F47735;
 }
+.gray {
+	color: #808080;
+}
 /*header bg gray: #F2F2F2;*/
 
 
@@ -429,7 +432,7 @@ figure:hover figcaption {
 }
 .product-details {
 	float: left;
-	padding: 7em 4em 0 4em;
+	padding: 6em 4em 0 4em;
 }
 .product-details .icon_popover {
 	width: 50px;
@@ -438,30 +441,9 @@ figure:hover figcaption {
 	float: left;
 	margin: 1.75em 1.5em 0 0;
 }
-.product-details .product-title {
-	float: left;
-}
-.product-details h1 {
-/*	font-size: 2em;*/
-	margin-bottom: 0;
-}
 
-.product-details h5 {
-	font-size: .75em;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight:400;
-	text-transform: uppercase;
-	letter-spacing: .125em;
-	line-height: 1.675em;
-	margin: .75em 0 1.5em 0;
-}
 .product-details .price {
-	/*margin-bottom: 3em;*/
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 1.5em;
 	color: #009DDC;
 }
 .product-details ul {
@@ -490,8 +472,10 @@ figure:hover figcaption {
 }
 .product-details button {
 	height: 40px;
-	width: 200px;
+	width: auto;
 	border: 0;
+	padding: 0 1em;
+	min-width: 150px;
 	background-color: #EF4135;
 	color: white;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
