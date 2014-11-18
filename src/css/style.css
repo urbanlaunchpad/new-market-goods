@@ -284,15 +284,20 @@ footer #pattern {
 	float: left;
 	background-image: url('../img/kickstarter.jpg');
 	background-size: cover;
-	border-right: 1px solid white;
+	/*border-right: 1px solid white;*/
 }
+
+#kickstarter .inset {
+	margin: 2em 0 0 1em;
+}
+
 #kickstarter h4 {
 	font-weight: 600;
-	margin: 4em 0 0 1em;
 }
-#kickstarter h5 {
+/*#kickstarter h5 {
 	margin: 1em 0 0 1.125em;
-}
+}*/
+
 #kickstarter h5 a {
 	border-bottom: 2px solid black;
 	padding-bottom: 0.075em;
