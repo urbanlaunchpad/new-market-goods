@@ -126,37 +126,37 @@ h1 {
 	font-size: 2.5000em; /* 40px */
 	line-height: 1.0500em; /* 42px */
 	margin-top: 0.5250em;
-	margin-bottom: 0.0000em;
+	margin-bottom: 0.5250em;
 }
 h2 {
 	font-size: 2.0000em; /* 32px */
   	line-height: 1.3125em; /* 42px */
   	margin-top: 0.6563em;  
-  	margin-bottom: 0.0000em;
+  	margin-bottom: 0.6563em;
 }
 h3 {
   	font-size: 1.7500em; /* 28px */
   	line-height: 1.5000em; /* 42px */
   	margin-top: 0.7500em;  
-  	margin-bottom: 0.0000em;
+  	margin-bottom: 0.7500em;
 }
 h4 {
   	font-size: 1.5000em; /* 24px */
   	line-height: 1.7500em; /* 42px */
   	margin-top: 0.8750em;  
-  	margin-bottom: 0.0000em;
+  	margin-bottom: 0.8750em;
 }
 h5 {
  	font-size: 1.1250em; /* 18px */
- 	line-height: 1.1667em; /* 21px */
+ 	line-height: 1.5em; /* 21px */
  	margin-top: 1.1667em;  
- 	margin-bottom: 0.0000em;
+ 	margin-bottom: 1.1667em;
 }
 h6 {
   	font-size: 1.0000em; /* 16px */
   	line-height: 1.3125em; /* 21px */
   	margin-top: 1.3125em;  
-  	margin-bottom: 0.0000em;
+  	margin-bottom: 1.3125em;
 }
 
 h1.serif, h2.serif, h3.serif, h4.serif, h5.serif, h6.serif {
@@ -286,33 +286,22 @@ footer #pattern {
 	background-size: cover;
 	border-right: 1px solid white;
 }
-#kickstarter h1 {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+#kickstarter h4 {
 	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: 1.5em;
-	line-height: 1.675em;
-	color: black;
 	margin: 4em 0 0 1em;
 }
-#kickstarter p {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: 400;
-	font-size: 1.25em;
-	line-height: 1.5em;
-	color: black;
-	margin: 1em 0 0 1em;
+#kickstarter h5 {
+	margin: 1em 0 0 1.125em;
 }
-#kickstarter p a {
+#kickstarter h5 a {
 	border-bottom: 2px solid black;
-	padding-bottom: 0.0875em;
+	padding-bottom: 0.075em;
 	color: black;
 	text-decoration: none;
 }
-#kickstarter p a:hover {
+#kickstarter h5 a:hover {
 	border-bottom: 2px solid #fff;
-	padding-bottom: 0.0875em;
+	padding-bottom: 0.075em;
 	color: #fff;
 }
 #kickstarter img {
